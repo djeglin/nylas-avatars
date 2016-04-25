@@ -1,0 +1,26 @@
+{
+  "name": "nylas-avatars",
+  "version": "0.1.0",
+  "main": "./lib/main",
+
+  "isOptional": true,
+  "isStarterPackage": false,
+
+  "title": "Nylas User Avatars",
+  "description": "Adds avatar support to the N1 info pane",
+  "icon": "./icon.png",
+
+  "license": "GPL-3.0",
+  "engines": {
+    "nylas": ">=0.3.0 <0.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bengotow/nylas-sidebar-github-profile"
+  },
+  "dependencies": {
+    "reflux": "0.1.13",
+    "request": "^2.53",
+    "underscore": "^1.8"
+  }
+}
